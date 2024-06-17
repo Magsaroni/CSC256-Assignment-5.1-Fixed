@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 5 - Magaly Valdez</title>
+  <link rel="stylesheet" href="Valdez_Week5.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Favorite Movies
+        </h1>
+    </header>
+
+    <main>
+        <form id="frmMovie" onsubmit="addMovie(event);">
+            <!-- Label helps what info is needed. -->
+            <label for="txtMovie">Enter Movie Title:</label>
+            <!-- Movie Texbox -->
+             <input type="text" id="txtMovie" name="txtMovie" placeholder="Movie Title" required>
+             <!-- Setup a button! -->
+              <button type="submit">Add Movie</button>
+
+
+        </form>
+
+        <div id="divMovieList"></div>
+        <button onclick="clearList();">Clear List</button>
+    </main>
+    <script src="Valdez_Week5.js"></script>
+</body>
+</html>

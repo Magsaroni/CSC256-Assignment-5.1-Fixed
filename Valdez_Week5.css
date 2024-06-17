@@ -1,0 +1,26 @@
+body{
+    background-color: burlywood;
+    color: brown
+    margin 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: brown;
+}
+form{
+    margin: 20px;
+
+}
+button{
+    background-color: brown;
+    color: burlywood;
+    border: none;
+    border-radius: 4px; /*rounded! */
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+}
